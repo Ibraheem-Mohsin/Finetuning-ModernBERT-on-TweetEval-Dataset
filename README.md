@@ -18,7 +18,7 @@ Multi-task, single-label classification:
 - Missing labels masked with -100
 
 
-## 🏋️ Training
+## Training
 - CrossEntropyLoss per task
 
 ## 📊 Validation
@@ -31,7 +31,7 @@ predict("I love this 😄")
 Output:
 {'emoji': 7, 'sentiment': 1, ...}
 
-## ⚙️ Installation
+## Installation
 pip install torch transformers pandas tqdm
 
 ## ▶️ Usage
