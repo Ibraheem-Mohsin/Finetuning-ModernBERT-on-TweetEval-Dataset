@@ -26,10 +26,10 @@ Multi-task, single-label classification:
 
 ## 🔮 Inference
 Example:
-predict("I love this 😄")
+predict("I love this 😁")
 
 Output:
-{'emoji': 7, 'sentiment': 1, ...}
+{'emoji': 16 - "😁 (beaming)", 'sentiment': 1 - "neutral", 'emotion': 1 - "joy" .... and so on for every task}
 
 ## Installation
 pip install torch transformers pandas tqdm
