@@ -21,7 +21,7 @@ Multi-task, single-label classification:
 ## Training
 - CrossEntropyLoss per task
 
-## 📊 Validation
+## Validation
 - Separate validation loop
 
 ## 🔮 Inference
