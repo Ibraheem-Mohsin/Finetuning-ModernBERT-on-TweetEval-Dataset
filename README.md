@@ -18,15 +18,17 @@ Multi-task, single-label classification:
 - Missing labels masked with -100
 
 ## Dataset
-33 CSV files:
+I used the **TweetEval dataset**:
+
+🔗 https://huggingface.co/datasets/cardiffnlp/tweet_eval
+
+Dataset Structure:
+- 33 CSV files:
 - emoji_train.csv, emotion_train.csv, hate_train.csv etc.
 
 
 ## Training
-- CrossEntropyLoss per task
-
-## Validation
-- Separate validation loop
+- Trained ModernBERT using CrossEntropyLoss per task
 
 ## 🔮 Inference
 Example:
