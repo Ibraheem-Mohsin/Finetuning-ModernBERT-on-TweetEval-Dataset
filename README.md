@@ -35,7 +35,7 @@ Example:
 predict("I love this 😁")
 
 Output:
-{'emoji': 16 - "😁 (beaming)",&nbsp;&nbsp;&nbsp;&nbsp;'sentiment': 1 - "neutral",&nbsp;&nbsp;&nbsp;&nbsp;'emotion': 1 - "joy" .... and so on for every task}
+{'emoji': 16 - "😁 (beaming)",&nbsp;&nbsp;&nbsp;&nbsp;'sentiment': 2 - "positive",&nbsp;&nbsp;&nbsp;&nbsp;'emotion': 1 - "joy" .... and so on for every task}
 
 ## Installation
 pip install torch transformers pandas tqdm
