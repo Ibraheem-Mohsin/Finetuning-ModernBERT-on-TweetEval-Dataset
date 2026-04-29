@@ -1,6 +1,6 @@
 # 🧠 Multi-Task Tweet Classification using ModernBERT
 
-This project implements a multi-task learning framework using ModernBERT to classify tweets across multiple TweetEval tasks.
+With this I implement a multi-task learning framework using ModernBERT to classify tweets/posts across multiple TweetEval tasks.
 
 ## Tasks Covered
 - Emoji Classification
